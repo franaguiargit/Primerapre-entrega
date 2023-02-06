@@ -6,7 +6,7 @@ let nota3 = parseInt (prompt(`${nombre} ingrese la tercera nota del primer semes
 
 const promediosemestre1 = (nota1 + nota2 + nota3) / 3
 
-alert(`Para aprobar el primer Semestre ${nombre} deberia tener un promedio mayor o igual a 4`)
+alert(`Para aprobar el primer sgemestre ${nombre} deberia tener un promedio mayor o igual a 4`)
 
 alert("El promedio de las 3 notas del primer semestre es: "+promediosemestre1)
 

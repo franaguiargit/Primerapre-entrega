@@ -11,10 +11,10 @@ alert(`Para aprobar el primer sgemestre ${nombre} deberia tener un promedio mayo
 alert("El promedio de las 3 notas del primer semestre es: "+promediosemestre1)
 
 if (promediosemestre1 >= 4){
-    alert(`${nombre} esta aprobado/a`)
+    alert(`${nombre} aprobó el primer semestre`)
 
 } else if (promediosemestre1 < 4) {
-    alert(`${nombre} no esta aprobado/a`)
+    alert(`${nombre} no aprobó el segundo semestre`)
 }
 
 let nota1Semestre2 = parseInt (prompt(`${nombre} la primera nota del segundo semestre: `))
@@ -27,12 +27,13 @@ const promedioSemestre2 = (nota1Semestre2+ nota2Semestre2 + nota3Semestre2) / 3
 
 alert("El promedio de las 3 notas del segundo semestre es: "+promedioSemestre2)
 
-/*  if (promediosemestre2 >= 4){
-    alert("Usted esta aprobado")
+ if (promedioSemestre2 >= 4){
+    alert(`${nombre} aprobó el segundo semestre`)
 
-} else if (promediosemestre2 < 4) {
-    alert("Usted no esta aprobado")
-}  */
+} else if (promedioSemestre2 < 4) {
+    alert(`${nombre} no aprobó el segundo semestre`)
+}  
+
 const promedioAnual = (promediosemestre1 + promedioSemestre2) / 2
 
 alert("Su promedio anual equivalente a las notas de los 2 semestres es: "+promedioAnual)
